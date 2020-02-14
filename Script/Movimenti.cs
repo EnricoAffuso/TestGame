@@ -7,7 +7,7 @@ public class Movimenti : MonoBehaviour
     [SerializeField]
     float speed = 1;
 
-    // Update is called once per frame 
+    // Update is called once per frame sos
     void Update()
     {
         float movimentoVericale = Input.GetAxis("Vertical");
