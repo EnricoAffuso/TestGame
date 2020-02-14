@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour
 {
-    //SerializeField serve a rendere visibile la variabile nell'inspector
+    //SerializeField serve a rendere visibile la variabile nell'inspector 
     [SerializeField] GameObject cubePrefab;
     
 
-    // Start is called before the first frame update
+    // Start is called before the first frame update sdsadsadasdasdasdsadasdd
     void Start()
     {
         Debug.Log("Sono spawnato"+ gameObject.name, gameObject);
